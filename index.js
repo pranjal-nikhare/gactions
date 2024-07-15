@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-  res.send("everything is good here 👀 ?");
+  res.send("Hey !! everything is good here 👀 ?");
 });
 
 app.listen(4000, () => {
